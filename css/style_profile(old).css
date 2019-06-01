@@ -1,0 +1,566 @@
+/* 
+	Subject    : OFF CAMPUS PLATFORM PROJECT
+    Created on : 08-Feb-2019, 03:24:43 AM
+    Author     : Marc Freir
+    License    : This work is licensed under a Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+*/
+
+html, body {
+	height: 100%;
+    width: 100%;
+	font: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+}
+
+#firstnavbar {
+	background-color: #C8B7B7;
+	padding: 1% 0;
+	font-size: 1.2em;
+	margin: auto auto 50px auto;
+	/*padding-bottom: 50px;*/
+}
+.navbar-brand {
+	min-height: 55px;
+	padding: 0 15px 5px 10px;
+	margin: auto auto 10px auto;
+	
+}
+.navbar-default .navbar-nav li a {
+	color: #000000;
+}
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active {
+	color: #fff;
+}
+
+hr {
+	margin: auto;
+	display: block;
+	padding-top: 10px;
+	/*height: 100%;*/
+	border-color: #AA0000;
+}
+
+.profile-text {
+	padding-bottom: 10px;
+}
+
+
+footer {
+	width: 100%;
+	background-color: #AA0000;
+	padding: 5% 5% 5% 5%;
+	color: #fff;
+}
+
+/*
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #fff;
+}
+*/
+
+.fa:hover {
+	color: #B3ECEC;
+	text-decoration: none;
+}
+
+/*
+.fa-user-circle-o {
+	padding: 15px;
+	font-size: 16px;
+	color: #8A2BE2;
+}
+*/
+
+.icon {
+	max-width: 100px;
+}
+@media (max-width: 768px) {
+	
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+	
+	.icon {
+		padding-top: 5%;
+		max-width: 100px;
+	}
+	
+
+}
+
+.lg{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.fa-heart {
+	padding: 15px;
+	font-size: 14px;
+	color: #db2020;
+}
+.fa-share-square {
+	padding: 15px;
+	font-size: 14px;
+	color: #4c988c;
+}
+.fa-trash {
+	padding: 15px;
+	font-size: 14px;
+	color: #000;
+}
+.fa-heart-o {
+	padding: 15px;
+	font-size: 14px;
+	color: #db2020;
+}
+
+.fa-thumbs-down {
+	padding: 15px;
+	font-size: 14px;
+	color: #8A2BE2;
+}
+.fa-comment {
+	padding: 15px;
+	font-size: 14px;
+	color: #8A2BE2;
+}
+
+
+
+#sml-button {
+	justify-content: center;
+	text-align: center;
+	color: #db2020;
+	vertical-align: auto;
+	margin: 0% auto;
+	display: inline-table;
+	background-color: #fff;
+	border: none;
+}
+#smu-button {
+	justify-content: center;
+	text-align: center;
+	color: #8A2BE2;
+	vertical-align: middle;
+	margin: 0% auto;
+	display: inline-table;
+	background-color: #fff;
+	border: none;
+}
+
+/*
+.card {
+	display: block;
+	border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: auto;
+}
+.cb {
+	display: block;
+	border-radius: 5px;
+    box-shadow: 0 4px 8px 0 #c6e2ff;
+    transition: 0.3s;
+	width: auto;
+	height: 130px;
+}
+
+textarea {
+	resize: none;
+	border-radius: 5px;
+}
+*/
+
+
+/*
+.container {
+	display: flex inline;
+    padding: 20px 100px;
+}
+*/
+
+
+/*
+#con-post {
+	display: block;
+	padding: 20px 100px;
+	height: 80px;
+	display: table-cell;
+	align-items: flex-start;
+}
+
+
+.landing-text {
+	display: inline-flex;
+	text-align: center;
+	vertical-align: middle;
+	
+}
+
+#sec {
+	display: flex;
+	padding: 1% 2% 1% 2%;
+}
+
+#comcom {
+	padding: 1% 2% 1% 2%;
+}
+
+p {
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 14px;
+}
+
+#clearsearch {
+	background: #0099ff;
+  border: 0;
+  border-radius: 20px;
+}
+
+#clearsearch:hover {
+	background: #000099;
+}
+*/
+
+
+
+/* PART 2*/
+
+/*
+.container {*/
+	/*padding-top: 50px;*/
+	/*margin-top: 150px;*/
+	/*width: 800px;*/
+	/*height: auto;*/
+    /*display: grid;*/
+    /*
+}*/
+
+/*
+.home{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	padding: 50px;
+	margin: auto 50px auto 50px;
+}
+.item{
+	padding-top: 10px;
+	margin: auto 100px auto 100px;
+    width: 800px;
+    height: 1000px;
+    background: #eeeeee;
+    border-radius: 20px;
+}
+.content{
+    height: 100%;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+*/
+
+.text-center {
+	padding-top: 10px;
+	margin: 5% auto 5% auto;
+}
+
+.image-center {
+	padding-top: 200px;
+    margin: auto 10px;
+    justify-content: center;
+    display: flex;
+}
+
+.in{
+    padding: 5px;
+    color: #ff0074;
+}
+
+/*
+.btn{
+    color: #fff;
+}
+*/
+
+/*
+.btn-default{
+    background: #AA0000;
+    border: 0;
+	border-radius: 20px;
+	width: 50%;
+}
+*/
+
+/*
+.btn-primary {
+	display: inline-block;
+	margin:10px 10px 10px 10px;
+}
+*/
+
+/*
+input[type="submit"] {
+	background: #AA0000;
+    border: 0;
+	border-radius: 20px;
+	width: 10%;
+}
+*/
+
+/*
+.logo{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #fff;
+    color: #fff;
+    margin-bottom: 20px;
+    padding-top: 15px;
+    line-height: 90px;
+}
+*/
+
+/*
+.logo-text{
+    text-align: center;
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: 900;
+    font-family: Arial, sans-serif, monospace, Verdana;
+    color: #cc003d;
+}
+*/
+/*
+input[type=text],
+input[type=password],
+input[type=email]{*/
+    /*background: 0 0;*/
+    /*border: 0;*/
+    /*box-shadow: none;*/
+    /*border-bottom: 1px solid #000;*/
+    /*border-radius: 0;*/
+    /*
+}
+*/
+
+.lg{
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.input-group-addon{
+    background: 0 0;
+    border: 0;
+    color: #AA0000;
+}
+h5{
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: bold;
+    font-family: Arial, sans-serif, monospace, Verdana;
+    /*color: #fff;*/
+}
+h1{
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    font-family: Arial, sans-serif, monospace, Verdana;
+    color: #000;
+}
+h5 .gravatar-legend{
+    text-align: center;
+    font-size: 10pt;
+    font-style: italic;
+    font-weight: lighter;
+    font-family: Arial, sans-serif, monospace, Verdana;
+    /*color: #fff;*/
+}
+img {
+    border-radius: 10px;
+}
+
+/* NEW FORM */
+/*
+html,
+body {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    background-color: #ddd3e2;
+  }
+*/
+/* GLOBAL */
+
+.container {
+    /*width: 80%;*/
+    margin: auto;
+    overflow: hidden;
+    display: flex inline;
+  }
+
+#title {
+    text-align: center;
+}
+/*
+#showcase {
+    min-height: 450px;
+    padding-top: 20px;
+    text-align: center;
+    color: #6600ff;
+    padding-bottom: 0px;
+  }
+*/
+/*
+.square {
+    position: relative;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 20px;
+  }
+
+#description {
+    padding-top: 20px;
+}
+*/
+/*
+.labels {
+    display: inline-block;
+    text-align: right;
+    width: 40%;
+    padding: 5px;
+    vertical-align: top;
+    margin-top: 10px;
+}
+
+.rightTab {
+    display: inline-block;
+    text-align: left;
+    width: 48%;
+    vertical-align: middle;
+}
+
+.input-field {
+    height: 20px;
+    width: 280px;
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+*/
+/*
+.dropdown {
+    height: 35px;
+    width: 140px;
+    padding: 5px;
+    margin: 10px;  
+    margin-top: 15px;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+}
+
+.radio, .checkbox {
+    position: relative;
+    left: -43px;
+    margin-left: 10px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.ul-radio {
+    list-style: none;
+}
+
+.optionuser, input[type="checkbox"] {
+    float: left;
+    margin-right: 5px;
+}
+
+textarea[id="comments"] {
+    height: 50px;
+    resize: vertical;
+}
+*/
+
+.btn-default{
+    border: 0;
+	border-radius: 20px;
+	display: flex;
+	background-color: #AA0000;
+	color: #fff;
+	margin: 25px auto;
+}
+
+
+/*
+#submit {
+    background-color: #6600ff;
+    border-radius: 4px;
+    color: white;
+    font-size: 1em;
+    height: 40px;
+	width: 96px;
+	
+    margin: 20px;
+	border: 0px solid;
+	
+}
+*/
+
+@media screen and (max-width: 520px) {
+    .labels {
+        width: 100%;
+        text-align: left;
+    }
+    .rightTab {
+        width: 80%;
+        float: left;
+    }
+    .input-field {
+        width: 100%;
+    }
+    select {
+        width: 100%;
+    }
+}
+
+textarea {
+	resize: none;
+    border-radius: 5px;
+    padding: 20px 100px;
+    margin: auto;
+    width: 30px;
+    
+}
+
+/*
+.container {
+	display: flex inline;
+    padding: 20px 100px;
+    
+}
+*/
+
+.panel-group {
+    display: inline;
+    margin: 10px;
+    overflow: auto;
+    padding: 20px;
+}
+
+.panel-body {
+    margin: 10px;
+    overflow: auto;
+    padding: 20px;
+}
